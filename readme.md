@@ -1,9 +1,9 @@
-### Simple Face Detection menggunakan OpenCV
+# Simple Face Detection menggunakan OpenCV
 *Disclaimer: Draft kode dan penjelasan ini dibuat oleh ChatGPT*
 
 Berikut contoh skrip Python + OpenCV untuk membuka webcam dan mendeteksi banyak wajah secara realtime. Pakai Haar Cascade (ringan \& simpel). Saya sertakan juga opsi model DNN (lebih akurat) kalau mau upgrade.
 
-#### 1\) Versi simpel (Haar Cascade)
+## 1\) Versi simpel (Haar Cascade)
 ```python
 import cv2
 
@@ -64,7 +64,7 @@ Cara pakai:
 * Jalankan: python face\_detect\_haar.py
 * Tekan q untuk keluar.
 
-#### 2\) Versi lebih akurat (DNN ResNet SSD) — opsional
+## 2\) Versi lebih akurat (DNN ResNet SSD) — opsional
 Unduh file model:
 * Prototxt: deploy.prototxt (SSD face deploy)
 * Caffe model: res10\_300x300\_ssd\_iter\_140000.caffemodel
